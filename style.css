@@ -1,19 +1,40 @@
+* {
+    border: 1px  lightskyblue;
+    margin: 0%;
+}
 
-h1{
+.container {
+    display: flex;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(./images/banner.jpg);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.container .logo {
+    width: 100px;
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.heading {
+    font-size: 300%;
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 50px;
     color: white;
-    background-color: black;
 }
 
-h3{
+.navi {
+    background-color: black;
     color: white;
-    background-color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
 }
 
-img{
-    height: auto;
-    width: 10cm;
-}
-
-#descriptor{
-    background-color: beige;
-}
